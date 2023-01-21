@@ -11,7 +11,7 @@
   height: 100vh;
   background-color: #261b2e;
   background: linear-gradient(rgba(26, 2, 73, 0.7), rgba(26, 2, 73, 0.7)),
-    url("./assets/city-view.png");
+    url("./assets/city-view-small.png");
   background-position: -470px -4px;
   background-size: cover;
   /* background-repeat: no-repeat; */
