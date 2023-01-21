@@ -11,7 +11,7 @@
   height: 100vh;
   background-color: #261b2e;
   background: linear-gradient(rgba(26, 2, 73, 0.7), rgba(26, 2, 73, 0.7)),
-    url("./city-view.png");
+    url("./assets/city-view.png");
   background-position: -470px -4px;
   background-size: cover;
   /* background-repeat: no-repeat; */
@@ -98,7 +98,7 @@ input {
   color: #fff;
   text-align: center;
   font-size: 1.2rem;
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
 }
 
 button[type="submit"] {
