@@ -82,6 +82,11 @@ function App() {
           <NoResults clearSearch={clearSearch} query={searchQuery} />
         )}
       </div>
+
+      <footer className="footer">
+        <p>website by</p>
+        <a className="link" href="https://jmailey.vercel.app/">John Mailey</a>
+      </footer>
     </main>
   );
 }

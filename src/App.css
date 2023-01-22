@@ -171,3 +171,15 @@ input:focus {
     transform: translate(24px, 0);
   }
 }
+
+
+.footer {
+  background-color: #090730;
+  padding: .5rem 1.5rem;
+  color: #fff;
+  text-align: right;
+}
+
+.footer .link {
+  color: #fff;
+}
