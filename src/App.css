@@ -1,6 +1,4 @@
-:root {
-  --neon: hsl(317 100% 54%);
-}
+
 
 @font-face {
   font-family: "Gillies";
@@ -58,30 +56,7 @@
   right: 0;
 }
 
-.card {
-  /* max-width: 400px; */
-  border: 1px solid #dadada;
-  border-radius: 1rem;
-  overflow: hidden;
-}
 
-.card__image {
-  width: 100%;
-}
-
-.card__category {
-  color: #666666;
-}
-
-.card__content {
-  padding: 1.5rem;
-  display: grid;
-  gap: 0.5rem;
-}
-
-.card__ingredients {
-  list-style: none;
-}
 
 input {
   width: 80%;

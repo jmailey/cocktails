@@ -33,12 +33,12 @@ export default function Results({ data }: Props) {
             <img className="card__image" src={drink.strDrinkThumb} alt="" />
             <div className="card__content">
               <p className="card__category">{drink.strAlcoholic}</p>
-              <h3>{drink.strDrink}</h3>
+              <h3 className="card__header">{drink.strDrink}</h3>
               <ul className="card__ingredients">
                 {ingredients.map((ingredient, index) => {
                   if (ingredient !== null) {
                     return (
-                      <li key={crypto.randomUUID()}>
+                      <li key={crypto.randomUUID()} className="list-item">
                         {`${
                           measurement[index] ? measurement[index] : ""
                         } ${ingredient},`}
@@ -47,7 +47,7 @@ export default function Results({ data }: Props) {
                   }
                 })}
               </ul>
-              <p>{drink.strInstructions}</p>
+              <p className="card__instructions">{drink.strInstructions}</p>
             </div>
           </div>
         );
