@@ -35,6 +35,9 @@ function App() {
         if (drinks === null) {
           setNoResults(true);
         }
+        else {
+          setNoResults(false);
+        }
       },
     }
   );
